@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="All" />
+
+    <item
+        android:title="Caricature" />
+
+    <item
+        android:title="Cartoon/Anime Character" />
+
+    <item
+        android:title="Embroidery" />
+
+    <item
+        android:title="Realism" />
+
+    <item
+        android:title="UTAU" />
+
+</menu>

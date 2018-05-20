@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/art_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/artist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/art_image"
+        android:paddingBottom="10dp"
+        android:text="Name holder"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/art_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/artist_name"
+        android:layout_below="@+id/artist_name"
+        android:text="Art Type"
+        android:textSize="16sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/artist_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/art_image"
+        android:layout_alignBottom="@+id/art_image"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
