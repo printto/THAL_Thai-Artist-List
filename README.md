@@ -21,7 +21,8 @@ Users ca search for artist's name or art type of the artist.
 - Artist registering system.
 
 ## Documentations
-- Soon...
+Usecases, Domain Model, Sequence Diagrams, Value Proposition etc.
+- [Google Drive Folder](https://drive.google.com/drive/folders/1VfmdiJfwREzLv9FG_W5L5Fww504Kt8n6?usp=sharing)
 
 ## Group members
 - Pappim Pipatkasrira (Programmer)
